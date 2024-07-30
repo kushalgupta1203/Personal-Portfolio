@@ -133,7 +133,7 @@ export const education = [
     grade: "96%",
     year: "2017 - 2019",
     activities: "Debate Club, Music Club, Public Speaking",
-    type: "school"
+    type: "school" as const,
   },
   {
     name: "Lovely Public Senior Secondary School",
@@ -142,7 +142,7 @@ export const education = [
     grade: "94.6%",
     year: "2019 - 2021",
     activities: "Music Club, Public Speaking, Research Club",
-    type: "school"
+    type: "school" as const,
   },
   {
     name: "Guru Gobind Singh Indraprastha University",
@@ -152,7 +152,7 @@ export const education = [
     branch: "Artificial Intelligence & Data Science",
     year: "2021 - 2025",
     activities: "General Secratary - NSS (2023 - 24), Won Hackathons, Public Speaking, Event Organisation",
-    type: "college"
+    type: "college" as const,
   }
 ];
 
