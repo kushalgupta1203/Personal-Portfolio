@@ -1,0 +1,23 @@
+-- Personal Portfolio --
+
+
+1. Hero.tsx and TextGenerate.tsx is being modified. Image is being added.
+
+2. The skills section is being added in Experience.tsx & rest of it's components. The text is being edited in index.ts.
+
+3. The projects are being handled in RecentProjects.tsx. The images are being added in /public folder.  The text is being edited in index.ts.
+
+4. The education is being added from EducationInstitute.tsx. Testimonials & Clients.tsx is being deleted, education was added in index.ts.
+
+5. The approach is being taken in same format only text is changed in index.ts.
+
+6. The footer is added with links and the new animation is being added with WordFlip.tsx & two buttons.
+
+7. grid.tsx is non functional only some elements are being extracted from it.
+
+
+
+Note : The physical components which are not in use, are not being removed from the model. If anyone wants to add them later, edit page.tsx.
+
+
+-- Video Referred : https://www.youtube.com/watch?v=FTH6Dn3AyIQ --
