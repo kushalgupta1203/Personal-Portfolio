@@ -3,7 +3,11 @@ import React from "react";
 import { FlipWords } from "./ui/FlipWords";
 
 export function FlipWordsDemo() {
-  const words = ["You know the business,", "I know the chemistry"];
+  // Update words to be an array of arrays of strings
+  const words: string[][] = [
+    ["You know the business,"],
+    ["I know the chemistry"]
+  ];
 
   return (
     <div className="h-[3rem] flex justify-center items-center px-4">
