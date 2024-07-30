@@ -1,5 +1,5 @@
 "use client";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useState } from "react";
 import Lottie from "react-lottie";
 import { socialMedia } from "@/data";
 import { FlipWords } from "./ui/FlipWords";
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
       {/* Centered content */}
       <div className="flex flex-col items-center text-center">
         <div className="h-[3rem] flex justify-center items-center px-4">
-          <div className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+          <div className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
             <FlipWords words={wordArrays} />
           </div>
         </div>
@@ -71,11 +71,11 @@ const Footer: React.FC = () => {
             icon={<IoCopyOutline />}
             position="left"
             handleClick={() => handleCopy('phone')}
-            otherClasses="!bg-[#161A31]"
+            otherClasses="!bg-[#161A31] flex items-center justify-center text-xs sm:text-sm md:text-base lg:text-lg"
           />
           {copiedButton === 'phone' && (
             <div className="absolute inset-0 flex justify-center items-center">
-              <Lottie options={defaultOptions} height={300} width={300} /> {/* Increased size */}
+              <Lottie options={defaultOptions} height={300} width={300} />
             </div>
           )}
         </div>
@@ -85,11 +85,11 @@ const Footer: React.FC = () => {
             icon={<IoCopyOutline />}
             position="left"
             handleClick={() => handleCopy('email')}
-            otherClasses="!bg-[#161A31]"
+            otherClasses="!bg-[#161A31] flex items-center justify-center text-xs sm:text-sm md:text-base lg:text-lg"
           />
           {copiedButton === 'email' && (
             <div className="absolute inset-0 flex justify-center items-center">
-              <Lottie options={defaultOptions} height={300} width={300} /> {/* Increased size */}
+              <Lottie options={defaultOptions} height={300} width={300} />
             </div>
           )}
         </div>
