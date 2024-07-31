@@ -44,8 +44,6 @@ export const InfiniteMovingCards = ({
         }
       });
 
-      getDirection();
-      getSpeed();
       setStart(true);
     }
   }
@@ -53,30 +51,29 @@ export const InfiniteMovingCards = ({
   const getDirection = () => {
     if (containerRef.current) {
       if (direction === "left") {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "forwards"
-        );
+        containerRef.current.style.setProperty("--animation-direction", "forwards");
       } else {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "reverse"
-        );
+        containerRef.current.style.setProperty("--animation-direction", "reverse");
       }
     }
   };
 
   const getSpeed = () => {
     if (containerRef.current) {
+      let duration = "20s"; // Default to normal speed
       if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else {
-        containerRef.current.style.setProperty("--animation-duration", "40s");
+        duration = "10s"; // Faster speed
+      } else if (speed === "slow") {
+        duration = "30s"; // Slower speed
       }
+      containerRef.current.style.setProperty("--animation-duration", duration);
     }
   };
+
+  useEffect(() => {
+    getDirection();
+    getSpeed();
+  }, [direction, speed]);
 
   return (
     <div
@@ -98,8 +95,7 @@ export const InfiniteMovingCards = ({
           <li
             className="relative w-[80vw] max-w-full flex-shrink-0 border border-slate-800 p-3 md:p-5 md:w-[60vw] h-[40rem] md:h-[50rem] lg:w-[40vw] lg:h-[25rem] rounded-xl"
             style={{
-              backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
             key={idx}
           >
