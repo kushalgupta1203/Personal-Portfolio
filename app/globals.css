@@ -88,3 +88,47 @@
     animation-play-state: running !important;
   }
 }
+
+
+
+
+
+/* Ensure to use a fast animation duration */
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.infinite-moving-cards {
+  /* Adjust this value to control the speed */
+  animation: moveRight 10s linear infinite;
+}
+
+@media (min-width: 640px) {
+  .infinite-moving-cards {
+    animation: moveRight 8s linear infinite;
+  }
+}
+
+@media (min-width: 768px) {
+  .infinite-moving-cards {
+    animation: moveRight 6s linear infinite;
+  }
+}
+
+@media (min-width: 1024px) {
+  .infinite-moving-cards {
+    animation: moveRight 4s linear infinite;
+  }
+}
+
+@media (min-width: 1280px) {
+  .infinite-moving-cards {
+    animation: moveRight 2s linear infinite;
+  }
+}
