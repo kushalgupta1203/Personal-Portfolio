@@ -44,7 +44,7 @@ const Hero = () => {
           />
 
           <TextGenerateEffect
-            words="Data Analyst, Software Developer & ML Enthusiast"
+            words="ML Engineer, Full Stack Developer & Data Analyst"
             className="text-center sm:text-left text-[22.4px] md:text-[1.50rem] lg:text-[1.50rem] text-purple"
           />
         </div>
