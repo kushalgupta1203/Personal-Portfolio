@@ -162,14 +162,14 @@ export const Skillset = [
   {
     id: 1,
     title: "Programming Skills",
-    desc: "Python, R, SQL, C, C++, Object-Oriented Programming (OOPs), Data Structures and Algorithms, Supervised & Unsupervised Learning, Deep Learning, NLP, Text Analysis, Probability, Statistics, Linear Algebra, AI, Mathematics",
+    desc: "Python, R, SQL, Object-Oriented Programming (OOPs), Data Structures and Algorithms, Supervised & Unsupervised Learning, Deep Learning, NLP, Text Analysis, Probability, Statistics, Linear Algebra, AI, Mathematics",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Data Science Skills",
-    desc: "NumPy, Pandas, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, Keras, Snscrape, Machine Learning, Data Visualization, NLP, Statistics,  Tableau, Power BI, MongoDB, PostgreSQL, MySQL, MariaDB, MSSQL ",
+    desc: "NumPy, Pandas, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, Keras, Snscrape, Machine Learning, Data Visualization, NLP, Statistics,  Tableau, Power BI, MongoDB, PostgreSQL, MySQL",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -183,7 +183,7 @@ export const Skillset = [
   {
     id: 4,
     title: "Tools & Platforms",
-    desc: "Git, Google Colab, Excel, MS PowerPoint, POSTMAN, Windows, Linux, HTML, CSS, JavaScript, React, Vue.js, Tailwind, Django, Flask, Express, Node.js, Figma, Photoshop, Canva, Arduino, Bash, Streamlit",
+    desc: "Git, Google Colab, Excel, MS PowerPoint, POSTMAN, Windows, Linux, HTML, CSS, JavaScript, React,Tailwind, Django, Flask, Node.js, Figma, Photoshop, Canva, Arduino, Bash, Streamlit",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
