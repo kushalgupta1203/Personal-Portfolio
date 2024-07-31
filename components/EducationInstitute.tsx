@@ -14,7 +14,7 @@ const EducationInstitute = () => {
 
       <div className="flex flex-col items-center">
         <div className="h-[130vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden mt-4 sm:mt-10">
-          <InfiniteMovingCards items={education} direction="right" speed="fast" />
+          <InfiniteMovingCards items={education} direction="right" speed="normal" />
         </div>
       </div>
     </section>
