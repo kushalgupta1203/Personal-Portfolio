@@ -11,7 +11,7 @@ interface FlipWordsProps {
 
 export const FlipWords: React.FC<FlipWordsProps> = ({
   words,
-  duration = 1500, // Updated duration to 1500ms
+  duration = 1600, // Reduced by 30% from 3000ms
   className,
 }) => {
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
@@ -31,7 +31,7 @@ export const FlipWords: React.FC<FlipWordsProps> = ({
     if (!isAnimating) {
       const timer = setTimeout(() => {
         startAnimation();
-      }, duration); // Use updated duration of 1500ms
+      }, duration); // Duration for word transition
       return () => clearTimeout(timer);
     }
   }, [isAnimating, duration, startAnimation]);
@@ -58,7 +58,7 @@ export const FlipWords: React.FC<FlipWordsProps> = ({
                 key={letterIndex}
                 initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
                 animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                transition={{ delay: letterIndex * (1500 / word.length / 10), duration: 0.7 }} // Adjusted delay and duration
+                transition={{ delay: letterIndex * 0.056, duration: 0.28 }} // Reduced by 30%
                 className="inline-block"
               >
                 {letter}
