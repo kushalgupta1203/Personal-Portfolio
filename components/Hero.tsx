@@ -76,7 +76,7 @@ const Hero = () => {
       </div>
 
       {/* Social Media Buttons */}
-      <div className="absolute top-[50px] left-4 flex space-x-3 z-20">
+      <div className="absolute top-[50px] md:top-[48px] left-[0px] sm:left-[0] md:left-[0] lg:left-[0] flex space-x-3 z-20">
         {socialMedia.map((info) => (
           <a
             href={info.url}
