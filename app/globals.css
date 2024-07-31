@@ -70,9 +70,11 @@
   * {
     @apply border-border !scroll-smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   button {
     @apply active:outline-none;
   }
@@ -83,12 +85,12 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
 @media (max-width: 768px) {
   .scroller ul:hover {
     animation-play-state: running !important;
   }
 }
-
 
 
 

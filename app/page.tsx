@@ -11,17 +11,26 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import EducationInstitute from "@/components/EducationInstitute";
 
-
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto overflow-clip sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        <Hero />
-        <Experience />
-        <RecentProjects />
-        <EducationInstitute />
-        <Approach />
+        <div className="mb-20000">
+          <Hero />
+        </div>
+        <div className="mb-20000">
+          <Experience />
+        </div>
+        <div className="mb-20000">
+          <RecentProjects />
+        </div>
+        <div className="mb-20000">
+          <EducationInstitute />
+        </div>
+        <div className="mb-20000">
+          <Approach />
+        </div>
         <Footer />
       </div>
     </main>
@@ -29,4 +38,3 @@ const Home = () => {
 };
 
 export default Home;
-
