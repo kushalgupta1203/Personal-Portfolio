@@ -151,7 +151,7 @@ export const education = [
     course: "Bachelors in Technology",
     branch: "Artificial Intelligence & Data Science",
     year: "2021 - 2025",
-    activities: "General Secratary - NSS (2023 - 24), Won Hackathons, Public Speaking, Organized Events",
+    activities: "General Secratary - NSS (2023 - 24), Won Hackathons, Public Speaking, Event Organisation",
     type: "college" as const,
   }
 ];
@@ -207,6 +207,11 @@ export const socialMedia = [
   },
   {
     id: 4,
+    img: "/linktree.png",
+    url: "https://linktr.ee/kushalgupta1203",
+  },
+  {
+    id: 5,
     img: "/gmail.png",
     url: "mailto:kushalgupta1203@gmail.com",
   },
