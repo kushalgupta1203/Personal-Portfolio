@@ -19,7 +19,7 @@ const EducationInstitute = () => {
           <InfiniteMovingCards
             items={education}
             direction="right"
-            speed="normal"
+            speed="fast"
           />
         </div>
       </div>
