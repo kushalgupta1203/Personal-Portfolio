@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "Finger Tip Canvas",
-    des: "Interactive drawing app that uses hand gestures for drawing on a virtual canvas.",
+    des: "Interactive app that uses hand gestures for drawing on a virtual canvas.",
     img: "/hand.jpg",
     iconLists: ["/python.png","/opencv.png", "/mediapipe.png", "paint.png"],
     link: "https://github.com/kushalgupta1203/FingerTip-Canvas",
