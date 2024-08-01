@@ -10,9 +10,9 @@ import { IoCopyOutline } from "react-icons/io5";
 // Footer Component
 const Footer: React.FC = () => {
   const wordArrays = [
-    ["But", "you", "know", "the", "business,"],
-    ["and", "I", "know", "the", "chemistry."],
-    ["I", "was", "thinking", "maybe..."],
+    ["You", "know", "the", "business,"],
+    ["I", "know", "the", "chemistry."],
+    ["I", "was", "thinking", "maybe.."],
     ["You", "and", "I", "could", "partner", "up."],
   ];
 
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
       {/* Centered content */}
       <div className="flex flex-col items-center text-center">
         <div className="h-[3rem] flex justify-center items-center px-4">
-          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
             <FlipWords words={wordArrays} />
           </div>
         </div>
