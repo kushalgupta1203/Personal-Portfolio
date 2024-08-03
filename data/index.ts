@@ -169,7 +169,7 @@ export const Skillset = [
   {
     id: 2,
     title: "Data Science Skills",
-    desc: "NumPy, Pandas, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, Keras, Snscrape, Machine Learning, Data Visualization, NLP, Statistics,  Tableau, Power BI, MongoDB, PostgreSQL, MySQL",
+    desc: "NumPy, Pandas, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, Keras, OpenCV, Machine Learning, Data Visualization, NLP, Statistics, Power BI, MongoDB, MySQL",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -183,7 +183,7 @@ export const Skillset = [
   {
     id: 4,
     title: "Tools & Platforms",
-    desc: "Git, Google Colab, Excel, MS PowerPoint, POSTMAN, Windows, Linux, HTML, CSS, JavaScript, React,Tailwind, Django, Flask, Node.js, Figma, Photoshop, Canva, Arduino, Bash, Streamlit",
+    desc: "Git, Google Colab, Excel, MS PowerPoint, Jupyter, Windows, Linux, HTML, CSS, JavaScript, React, Django, Flask, Figma, Canva, Streamlit",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
