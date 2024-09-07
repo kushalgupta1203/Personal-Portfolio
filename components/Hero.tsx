@@ -66,7 +66,7 @@ const Hero = () => {
 
       {/* Magic Button on the top right */}
       <div className="absolute top-[35px] right-4 z-20 sm:top-[25px] md:top-[8px] lg:top-[8px]">
-        <a href="https://drive.google.com/file/d/16pn896tl0tpXzmldS3IQa92w1yM9642Q/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1AlH0LT6266YgS80ANm-DNAnyKuoDWT7H/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           <MagicButton
             title="Resume"
             icon={<FaLocationArrow />}
