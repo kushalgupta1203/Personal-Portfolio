@@ -162,28 +162,28 @@ export const Skillset = [
   {
     id: 1,
     title: "Programming Skills",
-    desc: "Python, R, SQL, Object-Oriented Programming (OOPs), Data Structures and Algorithms, Supervised & Unsupervised Learning, Deep Learning, NLP, Text Analysis, Probability, Statistics, Linear Algebra, AI, Mathematics",
+    desc: "Python, Java, JavaScript, HTML, CSS, Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA)",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Data Science Skills",
-    desc: "NumPy, Pandas, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, Keras, OpenCV, Machine Learning, Data Visualization, NLP, Statistics, Power BI, MongoDB, MySQL",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Data Science & Analysis",
+    desc: "Exploratory Data Analysis (EDA), NumPy, Pandas, Scikit-Learn, TensorFlow, OpenCV, Model Testing and Evaluation, Matplotlib, Seaborn, Machine Learning (ML), Artificial Intelligence (AI)",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Soft Skills",
-    desc: "Public Speaking, Communication, Problem-Solving, Teamwork, Time Management",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Databases & Tools",
+    desc: "SQL, Power BI, VS Code, Git, Excel, MongoDB, Software Development Life Cycle (SDLC)",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Tools & Platforms",
-    desc: "Git, Google Colab, Excel, MS PowerPoint, Jupyter, Windows, Linux, HTML, CSS, JavaScript, React, Django, Flask, Figma, Canva, Streamlit",
+    title: "Soft Skills",
+    desc: "Problem-Solving, Communication, Leadership, Teamwork",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
