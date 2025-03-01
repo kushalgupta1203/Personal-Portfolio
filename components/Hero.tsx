@@ -52,7 +52,7 @@ const Hero = () => {
         {/* ImagesSlider with kushal.png */}
         <div className="relative w-full max-w-xs lg:max-w-sm xl:max-w-md h-[450px] mt-4 sm:mt-[-35px] sm:ml-[-15px]">
           <ImagesSlider
-            images={['/kushal.png']}
+            images={['/professional_pic_circle.png']}
             autoplay={true}
             direction="up"
             overlay={false}
