@@ -1,6 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { ImagesSlider } from "./ui/ImagesSlider";
 import { socialMedia } from "@/data";
 import Image from "next/image"; // Import next/image for optimized image loading
 
@@ -31,28 +33,34 @@ const Hero = () => {
 
       <div className="flex flex-col items-center justify-between relative my-20 z-10 sm:flex-row sm:items-center">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center sm:items-start justify-center mt-[-100px]">
-          <p className="uppercase tracking-widest text-l text-center sm:text-left text-blue-100 max-w-80">
-            Hello,
-          </p>
+          <TextGenerateEffect
+            words="Hello,"
+            className="uppercase tracking-widest text-l text-center sm:text-left text-blue-100 max-w-80"
+          />
 
-          <h1 className="text-center sm:text-left text-[33.6px] md:text-[3.8rem] lg:text-[3.5rem] text-white">
-            I am Kushal Gupta
-          </h1>
+          <TextGenerateEffect
+            words="I am Kushal Gupta"
+            className="text-center sm:text-left text-[33.6px] md:text-[3.8rem] lg:text-[3.5rem] text-white"
+          />
 
-          <p className="text-center sm:text-left text-[22.4px] md:text-[1.50rem] lg:text-[1.50rem] text-purple">
-            Data Analyst, Full Stack Developer & ML Enthusiast
-          </p>
+          <TextGenerateEffect
+            words="Data Analyst, Full Stack Developer & ML Enthusiast"
+            className="text-center sm:text-left text-[22.4px] md:text-[1.50rem] lg:text-[1.50rem] text-purple"
+          />
         </div>
         
-        {/* Static Image */}
+        {/* ImagesSlider with kushal.png */}
         <div className="relative w-full max-w-xs lg:max-w-sm xl:max-w-md h-[450px] mt-4 sm:mt-[-35px] sm:ml-[-15px]">
-          <Image
-            src="/professional_pic_circle.png"
-            alt="Kushal Gupta"
-            width={300}
-            height={450}
+          <ImagesSlider
+            images={['/professional_pic_circle.png']}
+            autoplay={true}
+            direction="up"
+            overlay={false}
             className="w-full h-full object-cover"
-          />
+          >
+            {/* Providing an empty React node to satisfy the 'children' prop requirement */}
+            <></>
+          </ImagesSlider>
         </div>
       </div>
 
