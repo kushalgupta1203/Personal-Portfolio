@@ -12,7 +12,6 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
-
   useEffect(() => {
     animate(
       "span",
@@ -20,8 +19,8 @@ export const TextGenerateEffect = ({
         opacity: 1,
       },
       {
-        duration: 3, // Slower animation
-        delay: stagger(0.5), // Increased delay between words
+        duration: 2,
+        delay: stagger(0.2),
       }
     );
   }, [scope.current]);
@@ -33,7 +32,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className={`opacity-0`}
+              className={opacity-0}
             >
               {word}{" "}
             </motion.span>
