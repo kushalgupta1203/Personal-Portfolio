@@ -10,9 +10,9 @@ import { IoCopyOutline } from "react-icons/io5";
 // Footer Component
 const Footer: React.FC = () => {
   const wordArrays = [
-    ["You", "know", "the", "business,"],
+    ["But", "you", "know", "the", "business..,"],
     ["and", "I", "know", "the", "chemistry."],
-    ["I'm", "thinking", "maybe.."],
+    ["I'm", "thinking,", "maybe.."],
     ["You", "and", "I", "could", "partner", "up."],
   ];
 
