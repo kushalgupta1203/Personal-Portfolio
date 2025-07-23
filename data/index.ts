@@ -108,7 +108,7 @@ export const projects = [
     id: 5,
     title: "Medal Map",
     des: " Data analysis report of the Summer Olympics from 1896 to 2016.",
-    img: "/olympics.JPG",
+    img: "/olympics1.JPG",
     iconLists: [],
     link: "https://github.com/kushalgupta1203/Medal-Map",
   },
