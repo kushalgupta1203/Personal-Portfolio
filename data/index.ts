@@ -104,6 +104,7 @@ export const projects = [
     iconLists: ["/python.png","/chatgpt.png", "/nlp.png", "/js.png"],
     link: "https://github.com/kushalgupta1203/Healthcare-Chatbot-System",
   },
+  
   {
     id: 5,
     title: "JobMatch AI",
