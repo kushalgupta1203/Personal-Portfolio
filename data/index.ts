@@ -93,7 +93,7 @@ export const projects = [
     title: "Cricket Score Prophet",
     des: "Web application that predicts cricket match scores using a pre-trained model.",
     img: "/stadium.jpg",
-    iconLists: [],
+    iconLists: ["/python.png","/streamlit.png", "/kaggle.png", "/jupyter.png"],
     link: "https://github.com/kushalgupta1203/Cricket-Score-Prophet",
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
     title: "Wellness Whiz",
     des: "Healthcare chatbot using Hugging Face delivers medical assistance.",
     img: "/p4.jpg",
-    iconLists: [],
+    iconLists: ["/python.png","/chatgpt.png", "/nlp.png", "/js.png"],
     link: "https://github.com/kushalgupta1203/Healthcare-Chatbot-System",
   },
   {
