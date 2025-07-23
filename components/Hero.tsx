@@ -49,7 +49,7 @@ const Hero = () => {
           />
           <TextGenerateEffect
             words="Former Intern @ Ministry of New & Renewable Energy"
-            className="text-center sm:text-left text-[18.4px] md:text-[1.0rem] lg:text-[1.0rem] text-purple"
+            className="text-center sm:text-left text-[18.4px] md:text-[1.0rem] lg:text-[1.0rem] text-purple mt-1 lg:mt-[-8px]"
           />
         </div>
         
