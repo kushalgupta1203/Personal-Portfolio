@@ -92,7 +92,7 @@ export const projects = [
     id: 3,
     title: "OCR Extractor",
     des: "Flask pplication that extracts metadata from images and generates an Excel sheet.",
-    img: "/ocr.png",
+    img: "/ocr1.png",
     iconLists: [],
     link: "https://github.com/kushalgupta1203/OCR-Extractor",
   },
