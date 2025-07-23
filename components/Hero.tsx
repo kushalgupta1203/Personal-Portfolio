@@ -44,12 +44,8 @@ const Hero = () => {
           />
 
           <TextGenerateEffect
-            words="Software Developer & AI Enthusiast"
+            words="Software Developer | AI & Data Science Enthusiast | Ex-Intern @ MNRE"
             className="text-center sm:text-left text-[22.4px] md:text-[1.50rem] lg:text-[1.50rem] text-purple"
-          />
-          <TextGenerateEffect
-            words="Former Intern @ Ministry of New & Renewable Energy"
-            className="text-center sm:text-left text-[18.4px] md:text-[1.0rem] lg:text-[1.0rem] text-purple mt-1 lg:mt-[-8px]"
           />
         </div>
         
