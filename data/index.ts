@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "SPICE.AI",
     des: "Solar Panel Inspection & Classification Engine",
-    img: "/solar.jpg",
+    img: "/solar.webp",
     iconLists: [],
     link: "https://github.com/kushalgupta1203/SPICE.AI",
   },
