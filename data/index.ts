@@ -93,7 +93,6 @@ export const projects = [
     title: "Cricket Score Prophet",
     des: "Web application that predicts cricket match scores using a pre-trained model.",
     img: "/stadium.jpg",
-    iconLists: ["/python.png","/streamlit.png", "/kaggle.png", "/jupyter.png"],
     link: "https://github.com/kushalgupta1203/Cricket-Score-Prophet",
   },
   {
