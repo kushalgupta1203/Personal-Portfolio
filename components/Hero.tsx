@@ -44,8 +44,12 @@ const Hero = () => {
           />
 
           <TextGenerateEffect
-            words="Data Analyst, Full Stack Developer & ML Enthusiast"
+            words="Software Developer & AI Enthusiast"
             className="text-center sm:text-left text-[22.4px] md:text-[1.50rem] lg:text-[1.50rem] text-purple"
+          />
+          <TextGenerateEffect
+            words="Former Intern @ Ministry of New & Renewable Energy"
+            className="text-center sm:text-left text-[18.4px] md:text-[1.0rem] lg:text-[1.0rem] text-purple"
           />
         </div>
         
@@ -66,7 +70,7 @@ const Hero = () => {
 
       {/* Magic Button on the top right */}
       <div className="absolute top-[35px] right-4 z-20 sm:top-[25px] md:top-[8px] lg:top-[8px]">
-        <a href="https://drive.google.com/file/d/1u2I3Y-D4MfScdasDyyLle9uDoeMWnziE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1SaHjNJAZ1p_HGsyf7tYRuyIdZ6Xfxn9p/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <MagicButton
             title="Resume"
             icon={<FaLocationArrow />}

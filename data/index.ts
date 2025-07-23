@@ -77,7 +77,7 @@ export const projects = [
     title: "TrafficTrak AI",
     des: "Vehicle counting system using OpenCV for real-time detection.",
     img: "/p1.jpg",
-    iconLists: ["/python.png","/opencv.png", "mediapipe.png", "/camera.png"],
+    iconLists: [],
     link: "https://github.com/kushalgupta1203/TrafficTrak-AI",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     title: "Finger Tip Canvas",
     des: "Interactive app that uses hand gestures for drawing on a virtual canvas.",
     img: "/hand.jpg",
-    iconLists: ["/python.png","/opencv.png", "/mediapipe.png", "paint.png"],
+    iconLists: [],
     link: "https://github.com/kushalgupta1203/FingerTip-Canvas",
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
     title: "Wellness Whiz",
     des: "Healthcare chatbot using Hugging Face delivers medical assistance.",
     img: "/p4.jpg",
-    iconLists: ["/python.png","/chatgpt.png", "/nlp.png", "/js.png"],
+    iconLists: [],
     link: "https://github.com/kushalgupta1203/Healthcare-Chatbot-System",
   },
 
@@ -110,7 +110,7 @@ export const projects = [
     title: "JobMatch AI",
     des: "Flask web application that evaluates resume quality using an NLP model.",
     img: "/job.webp",
-    iconLists: ["/python.png","/flask.png", "/nlp.png", "/js.png"],
+    iconLists: [],
     link: "https://github.com/kushalgupta1203/JobMatch-AI",
   },
   {
@@ -118,7 +118,7 @@ export const projects = [
     title: "Medal Map",
     des: " Data analysis report of the Summer Olympics from 1896 to 2016.",
     img: "/olympics.JPG",
-    iconLists: ["/python.png","/streamlit.png", "/kaggle.png", "/jupyter.png"],
+    iconLists: [],
     link: "https://github.com/kushalgupta1203/Medal-Map",
   },
 ];
@@ -148,7 +148,7 @@ export const education = [
   {
     name: "Guru Gobind Singh Indraprastha University",
     location: "Delhi, India",
-    grade: "9.46 CGPA",
+    grade: "9.54 CGPA",
     course: "Bachelors in Technology",
     branch: "Artificial Intelligence & Data Science",
     year: "2021 - 2025",
@@ -162,33 +162,34 @@ export const education = [
 export const Skillset = [
   {
     id: 1,
-    title: "Programming Skills",
-    desc: "Python, Java, JavaScript, HTML, CSS, Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA)",
+    title: "Programming & Core Concepts",
+    desc: "Python, Java, SQL, JavaScript, HTML, CSS, OOP, Data Structures, DBMS, Operating Systems, Computer Networks",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Data Science & Analysis",
-    desc: "Exploratory Data Analysis (EDA), NumPy, Pandas, Scikit-Learn, TensorFlow, OpenCV, Model Testing and Evaluation, Matplotlib, Seaborn, Machine Learning (ML), Artificial Intelligence (AI)",
+    title: "Frameworks, Tools & Platforms",
+    desc: "Django, Flask, FastAPI, React.js, Git, JIRA, Docker, Postman, Power BI, Render, Netlify, Streamlit, SQLAlchemy",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Databases & Tools",
-    desc: "SQL, Power BI, VS Code, Git, Excel, MongoDB, Software Development Life Cycle (SDLC)",
+    title: "Machine Learning & Data Science",
+    desc: "Pandas, NumPy, Statistics, Scikit-Learn, TensorFlow, OpenCV, Matplotlib, Seaborn, AI, ML, Model Evaluation, EDA",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Soft Skills",
-    desc: "Problem-Solving, Communication, Leadership, Teamwork",
+    title: "Databases & Testing",
+    desc: "MySQL, MongoDB, SQLite, SQLAlchemy, pytest, Selenium, Test Automation, Agile Methodologies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
